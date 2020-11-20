@@ -1,0 +1,252 @@
+body {
+    width: 1600px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+header {
+    background-color: #000000;
+    padding: 25px 502px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 581px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+header h1 {
+    margin: 0 0 0 288px;
+    padding: 0 92px 0 0;
+    
+}
+.headerAbout {
+    text-decoration: underline;
+}
+.hover {
+    margin-top: 15px;
+}
+.hover:hover {
+    cursor: pointer;
+    color: rgba(129, 129, 129, 1);
+}
+button {
+    background-color: #00afdb;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 17px 47px;
+    border-style: none;
+    
+}
+button:hover {
+    background-color: #009cc2;
+    cursor: pointer;
+ }
+.yourLife {
+    background-image: url(assets/bg-image.png);
+    background-position: center bottom 1px;
+    color: #ffffff;
+    padding: 136px 0 89px 0;
+}
+.yourLifeHead {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 400px 0 435px;
+
+}
+.yourLifeText {
+    font-size: 18px;
+    font-weight: 400;
+}
+.yourLifeTextString1 {
+    margin: 28px 525px 1px 573px;
+}
+.yourLifeTextString2 {
+    margin: 4px 0 29px 595px;
+}
+.yourLife button {
+    margin: 0 73px 181px 707px;
+}
+.yourLifeSocialLinks {
+    margin: 0 715px;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+.yourLifeSocialLinks img:hover {
+    cursor: pointer;
+}
+.rappresentYourIdea {
+    display: flex;
+    padding: 120px 270px 140px 268px;
+}
+.rappresentYourIdeaBlock {
+    margin: 150px 248px 104px 0;
+    padding: 0;
+}
+.rappresentYourIdeaBlockHeader {
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.rappresentYourIdeaBlockText {
+    font-size: 14px;
+    margin: 16px 0 30px 0;
+    line-height: 20px;
+}
+.ourCommunity {
+    background-color: F5F6F7;
+    display: flex;
+    padding: 77px 0 140px 269px;
+}
+.ourCommunity1Colon {
+    margin: 78px 139px 34px 0;
+    padding: 0;
+
+}
+.ourCommunity1Colon img {
+    margin: 0 127px 0 126px;
+}
+.ourCommunity1ColonHeader {
+    margin: 15px 0 10px 0;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ourCommunity1ColonText {
+    font-size: 14px;
+    line-height: 21px;
+    margin:0;
+    text-align: center;
+}
+.ourCommunity2ColonSlider {
+    display: flex;
+    align-items: center;
+    margin: 4px 259px 20px 536px;
+}
+.ourCommunity2ColonSliderRectangle {
+    margin: 0 12px;
+}
+.ourCommunity2ColonSliderRectangle:hover {
+    cursor: pointer;
+}
+.ourCommunity2ColonSlider p {
+    font-size: 18px;
+    margin: 0;
+}
+.ourCommunity2ColonImgPadding {
+    padding: 0 30px;
+}
+.ourCommunity2ColonImg {
+    display: flex;
+}
+.implement {
+    display: flex;
+    padding: 120px 370px 135px 269px;
+}
+.implement img {
+    margin-right: 139px;
+}
+.implement div {
+    margin: 173px 0 199px 0;
+}
+.implementText {
+    margin: 8px 0 28px 0;
+    font-size: 14px;
+    line-height: 19.6px;
+    text-align: left;
+}
+.implementHeader {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28,13px;
+}
+.signUp {
+    padding: 217px 597px 277px 597px;
+    background-image: url(assets/pexels-christina-morillo-1181675.png);
+}
+.signUpHeader {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 28px;
+    padding-left: 10px;
+    margin: 0;
+}
+form {
+    display:flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+input {
+    border: none;
+    width: 370px;
+    height: 45px;
+    padding-left: 24px;
+}
+.download {
+    padding: 120px 558px 180px 559px;
+}
+.downloadContent {
+    text-align: center;
+   
+}
+.downloadContentHeader {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.downloadContentText {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+    padding-bottom: ;
+    line-height: 20px;
+}
+.downloadContentButtons {
+    display:flex;
+    padding-left: 22px;
+    margin-top: 20px;
+}
+.downloadContentButtons button {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+button p {
+    margin: 0 23px 0 0;
+    font-variant: small-caps;
+}
+footer {
+    background-color:black;
+    padding: 60px 160px 80px 160px;
+}
+footer div {
+    display:flex;
+    justify-content: space-between;
+}
+.footerNav {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.footerNavBorder {
+    border-right: 1px  solid #ffffff;
+    border-left: 1px  solid #ffffff;
+    padding: 0 20px;
+}
+.footerCopyright {
+    color:  rgba(129, 129, 129, 1);
+    font-size: 14px;
+}
+.footerNav p:hover {
+    cursor: pointer;
+    color: rgba(129, 129, 129, 1);
+}
